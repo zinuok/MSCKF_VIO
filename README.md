@@ -35,5 +35,5 @@ $ source ~/catkin_ws/devel/setup.bash
 <br><br>
 
 # 3. TX2, NX
-### ● Actually, there is no installation difference between TX2 and NX
+#### ● Actually, there is no installation difference between TX2 and NX
 
