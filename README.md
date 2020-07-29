@@ -3,9 +3,11 @@
 + MSCKF_VIO setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
     + jetson Xavier NX - Jetpack 4.4
+    <br>
 + version info
     + Ubuntu: 18.04 
     + ROS: Melodic 
+    <br>
 + github link: [KumarRobotics](https://github.com/KumarRobotics/msckf_vio)
 ***
 <br>
