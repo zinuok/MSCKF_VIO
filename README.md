@@ -17,6 +17,7 @@
 ####    ● Suitesparse
 ### 2. Installation
 ####    &nbsp;&nbsp;&nbsp;&nbsp;● Actually, there is no installation difference between TX2 and NX
+### 3. Install
 ### 4. Run
 <br><br>
 
