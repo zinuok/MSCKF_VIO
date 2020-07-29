@@ -1,4 +1,8 @@
 # MSCKF_VIO
+1) MSCKF_mono install (with. dependency)
+$ cs && git clone https://github.com/ros-planning/random_numbers.git
+$ git clone https://github.com/KumarRobotics/msckf_vio.git && cm
+
 + MSCKF_VIO setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
     + jetson Xavier NX - Jetpack 4.4
