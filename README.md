@@ -1,55 +1,34 @@
 # MSCKF_VIO
-1) MSCKF_mono install (with. dependency)
-$ cs && git clone https://github.com/ros-planning/random_numbers.git
-$ git clone https://github.com/KumarRobotics/msckf_vio.git && cm
-
 + MSCKF_VIO setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
     + jetson Xavier NX - Jetpack 4.4
 + version info
     + Ubuntu: 18.04 
     + ROS: Melodic 
-+ github link: [here](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
++ github link: [KumarRobotics](https://github.com/KumarRobotics/msckf_vio)
 <br>
 
 # Index
 ### 1. Prerequisites
-####    ● Eigen
-####    ● Ceres solver
+####    ● Suitesparse
 ### 2. Installation
 ### 3. TX2, NX
 ####    ● Actually, there is no installation difference between TX2 and NX
 <br><br>
 
 # 1. Prerequisites
-### ● Eigen
-+ Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+### ● Suitesparse
 ```
-$ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip #check version
-$ unzip eigen.zip
-$ mkdir eigen-build && cd eigen-build
-$ cmake ../eigen_source_folder_name && sudo make install
-```
-### ● Ceres solver
-+ Ceres solver from [here](http://ceres-solver.org/installation.html)
-```
-$ sudo apt-get install -y cmake libgoogle-glog-dev libatlas-base-dev libsuitesparse-dev
-$ wget http://ceres-solver.org/ceres-solver-1.14.0.tar.gz
-$ tar zxf ceres-solver-1.14.0.tar.gz
-$ mkdir ceres-bin
-$ mkdir solver && cd ceres-bin
-$ cmake ../ceres-solver-1.14.0 -DEXPORT_BUILD_DIR=ON -DCMAKE_INSTALL_PREFIX="../solver"  #good for build without being root privileged and at wanted directory
-$ make -j8 # 8 : number of cores
-$ make test
-$ make install
+$ sudo apt-get -y install libsuitesparse-dev
 ```
 <br><br>
 
 # 2. Installation
-+ git clone and build from source
++ git clone and build from source with dependencies
 ```
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
+$ git clone https://github.com/ros-planning/random_numbers.git
+$ git clone https://github.com/KumarRobotics/msckf_vio.git
 $ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j3
 $ source ~/catkin_ws/devel/setup.bash
 ```
