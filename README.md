@@ -40,7 +40,7 @@ $ source ~/catkin_ws/devel/setup.bash
 ```
 <br><br>
 
-## 3. Instsall
+## 3. Install
 #### ● Actually, no installation difference among TX2, Xavier, and NX
 <br><br>
 
