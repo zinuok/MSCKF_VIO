@@ -40,7 +40,7 @@ $ source ~/catkin_ws/devel/setup.bash
 ```
 <br><br>
 
-## 3. TX2, NX
+## 3. Jetson Boards
 #### ● Actually, no installation difference among TX2, Xavier, and NX
 <br><br>
 
