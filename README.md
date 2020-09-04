@@ -2,6 +2,7 @@
 # MSCKF_VIO
 + MSCKF_VIO setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
+    + jetson AGX Xavier
     + jetson Xavier NX - Jetpack 4.4
     <br>
 + version info
@@ -16,7 +17,7 @@
 ### 1. Prerequisites
 ####    ● Suitesparse
 ### 2. Installation
-####    &nbsp;&nbsp;&nbsp;&nbsp;● Actually, there is no installation difference between TX2 and NX
+####    &nbsp;&nbsp;&nbsp;&nbsp;● Actually, there is no installation difference among TX2, Xavier, and NX
 ### 3. Install
 ### 4. Run
 <br><br>
@@ -40,7 +41,7 @@ $ source ~/catkin_ws/devel/setup.bash
 <br><br>
 
 ## 3. TX2, NX
-#### ● Actually, no installation difference between TX2 and NX
+#### ● Actually, no installation difference among TX2, Xavier, and NX
 <br><br>
 
 
