@@ -35,7 +35,7 @@ $ sudo apt-get -y install libsuitesparse-dev
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/ros-planning/random_numbers.git
 $ git clone https://github.com/KumarRobotics/msckf_vio.git
-$ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j3
+$ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j $(nproc)
 $ source ~/catkin_ws/devel/setup.bash
 ```
 <br><br>
